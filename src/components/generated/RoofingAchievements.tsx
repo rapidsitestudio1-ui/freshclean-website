@@ -125,12 +125,11 @@ export const RoofingAchievements = () => {
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80')",
+          filter: 'brightness(0.15)',
         }}
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-[#111111]/95" />
-      {/* Subtle gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#059669]/10 via-transparent to-[#059669]/5" />
+      <div className="absolute inset-0 bg-[#111111]/80" />
       {/* Top accent line */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#059669] via-[#059669]/50 to-transparent" />
 

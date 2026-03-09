@@ -83,12 +83,11 @@ export const ServiceEstimateForm = () => {
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80')",
+          filter: 'brightness(0.15)',
         }}
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-[#111111]/95" />
-      {/* Green gradient accent */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#059669]/10 via-transparent to-[#059669]/5" />
+      <div className="absolute inset-0 bg-[#111111]/80" />
 
       <div className="container mx-auto px-4 max-w-7xl relative z-10">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
