@@ -121,14 +121,14 @@ export const RoofingAchievements = () => {
     <section className="relative w-full py-16 sm:py-20 md:py-28 lg:py-32 overflow-hidden">
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80')",
         }}
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-[#111111]/90" />
+      <div className="absolute inset-0 bg-[#111111]/95" />
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#059669]/10 via-transparent to-[#059669]/5" />
       {/* Top accent line */}
