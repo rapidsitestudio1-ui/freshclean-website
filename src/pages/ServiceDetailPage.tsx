@@ -224,10 +224,9 @@ export const ServiceDetailPage = () => {
       <section className="relative w-full min-h-[320px] md:min-h-[380px] overflow-hidden flex items-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${current.heroImage}')` }}
+          style={{ backgroundImage: `url('${current.heroImage}')`, filter: 'brightness(0.2)' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111111]/95 via-[#111111]/80 to-[#111111]/60" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/50 via-transparent to-[#111111]/30" />
+        <div className="absolute inset-0 bg-[#111111]/70" />
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#059669] via-[#059669]/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
