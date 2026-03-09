@@ -12,10 +12,11 @@ export const RooferCTA = () => {
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80')",
+          filter: 'brightness(0.2)',
         }}
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#111111]/95 via-[#111111]/85 to-[#111111]/75" />
+      <div className="absolute inset-0 bg-[#111111]/70" />
 
       <div className="relative container mx-auto max-w-7xl px-4 py-16 md:py-24">
         <motion.div

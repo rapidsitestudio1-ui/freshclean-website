@@ -18,12 +18,10 @@ const AboutHero = () => {
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80')",
+          filter: 'brightness(0.2)',
         }}
       />
-
-      {/* Multi-layer overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#111111]/95 via-[#111111]/80 to-[#111111]/60" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/50 via-transparent to-[#111111]/30" />
+      <div className="absolute inset-0 bg-[#111111]/70" />
 
       {/* Decorative accent elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#059669] via-[#059669]/50 to-transparent" />
