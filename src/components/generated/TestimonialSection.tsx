@@ -63,7 +63,7 @@ export const TestimonialSection = () => {
 
   // @return
   return <section className="relative bg-[#f0fdf4] py-12 sm:py-16 md:py-20 lg:py-32 overflow-hidden">
-      <div className="container mx-auto px-4 max-w-7xl">
+      <div className="w-full mx-auto px-4 max-w-7xl">
         {/* Header Section */}
         <div className="relative mb-14 pb-4">
           <div className="flex items-center gap-3 mb-6">

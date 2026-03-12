@@ -271,7 +271,7 @@ export const BlogDetailPage = () => {
         <div className="absolute inset-0 bg-[#111111]/70" />
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#059669] via-[#059669]/50 to-transparent" />
 
-        <div className="relative z-10 w-full container mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
+        <div className="relative z-10 w-full mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -316,7 +316,7 @@ export const BlogDetailPage = () => {
 
       {/* Main Content */}
       <section className="w-full bg-white py-16 sm:py-20 md:py-28">
-        <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14">
             {/* Sidebar — Left */}
             <aside className="w-full lg:w-[320px] shrink-0">

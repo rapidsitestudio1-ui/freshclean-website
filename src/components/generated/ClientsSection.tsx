@@ -10,7 +10,7 @@ export const ClientsSection = () => {
 
   return (
     <section className="relative bg-[#fafaf8] py-10 md:py-14 overflow-hidden">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-center gap-3 mb-10">
           <div className="h-px w-8 bg-[#059669]" />
           <span
@@ -51,7 +51,7 @@ export const ClientsSection = () => {
         </motion.div>
       </div>
 
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 mt-10">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6 mt-10">
         <div className="h-px bg-gray-200" />
       </div>
     </section>

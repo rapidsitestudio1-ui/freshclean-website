@@ -178,7 +178,7 @@ const BlogHero = () => {
       <div className="absolute top-1/2 right-[10%] -translate-y-1/2 w-[300px] h-[300px] border border-[#059669]/10 rotate-45 hidden lg:block" />
       <div className="absolute top-1/2 right-[8%] -translate-y-1/2 w-[250px] h-[250px] border border-[#059669]/5 rotate-45 hidden lg:block" />
 
-      <div className="relative z-10 w-full container mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
+      <div className="relative z-10 w-full mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -223,7 +223,7 @@ const FeaturedPost = () => {
     <section className="relative bg-white py-20 md:py-28 overflow-hidden">
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-[#059669]/[0.02] rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -347,7 +347,7 @@ const BlogGrid = () => {
       <div className="absolute top-1/2 -translate-y-1/2 -left-20 w-[400px] h-[400px] bg-[#059669]/[0.08] rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute top-1/2 -translate-y-1/2 -right-20 w-[400px] h-[400px] bg-[#059669]/[0.08] rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="relative container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="relative w-full mx-auto max-w-7xl px-4 sm:px-6">
         {/* Filters & Search */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
@@ -516,7 +516,7 @@ const NewsletterSection = () => {
       <div className="absolute top-1/2 right-[5%] -translate-y-1/2 w-[200px] h-[200px] border border-white/5 rotate-45 hidden lg:block" />
       <div className="absolute top-1/2 right-[3%] -translate-y-1/2 w-[150px] h-[150px] border border-white/[0.03] rotate-45 hidden lg:block" />
 
-      <div className="relative container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="relative w-full mx-auto max-w-7xl px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -596,7 +596,7 @@ export const BlogPage = () => {
 
       {/* Latest Articles header */}
       <section className="bg-white pb-16 overflow-hidden">
-        <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}

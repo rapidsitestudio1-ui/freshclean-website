@@ -55,7 +55,7 @@ export const FAQSection = ({ items, title, subtitle }: FAQSectionProps) => {
 
   // @return
   return <section className="relative overflow-hidden bg-white py-12 md:py-24 w-full">
-      <div className="container mx-auto px-4 max-w-[1440px]">
+      <div className="w-full mx-auto px-4 max-w-[1440px]">
         {/* Section Header */}
         <div className="relative mb-14">
           <div className="flex items-center gap-3 mb-6">

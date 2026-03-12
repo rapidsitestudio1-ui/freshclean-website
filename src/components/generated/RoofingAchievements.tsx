@@ -133,7 +133,7 @@ export const RoofingAchievements = () => {
       {/* Top accent line */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#059669] via-[#059669]/50 to-transparent" />
 
-      <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-7xl">
+      <div className="w-full mx-auto px-4 sm:px-6 relative z-10 max-w-7xl">
         {/* Section Header — centered */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

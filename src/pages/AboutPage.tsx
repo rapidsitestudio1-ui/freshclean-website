@@ -40,7 +40,7 @@ const AboutHero = () => {
       <div className="absolute top-1/2 right-[8%] -translate-y-1/2 w-[250px] h-[250px] border border-[#059669]/5 rotate-45 hidden lg:block" />
 
       {/* Content */}
-      <div className="relative z-10 w-full container mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
+      <div className="relative z-10 w-full mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -87,7 +87,7 @@ const AboutCommitment = () => {
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-[#059669]/[0.02] rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-[#059669]/[0.015] rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         {/* Section Tag */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
@@ -324,7 +324,7 @@ const MissionValues = () => {
     <section className="relative bg-[#fafaf8] py-20 md:py-28 overflow-hidden">
       <div className="absolute top-1/2 -translate-y-1/2 -left-20 w-[400px] h-[400px] bg-[#059669]/[0.15] rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute top-1/2 -translate-y-1/2 -right-20 w-[400px] h-[400px] bg-[#059669]/[0.15] rounded-full blur-[100px] pointer-events-none" />
-      <div className="relative container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="relative w-full mx-auto max-w-7xl px-4 sm:px-6">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="flex items-center justify-center gap-3 mb-4">
@@ -389,7 +389,7 @@ const StoryTimeline = () => {
 
   return (
     <section className="bg-white py-20 md:py-28">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           {/* Left: Section intro */}
           <motion.div

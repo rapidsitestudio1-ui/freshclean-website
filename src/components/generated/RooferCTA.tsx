@@ -18,7 +18,7 @@ export const RooferCTA = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-[#111111]/70" />
 
-      <div className="relative container mx-auto max-w-7xl px-4 py-16 md:py-24">
+      <div className="relative w-full mx-auto max-w-7xl px-4 py-16 md:py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

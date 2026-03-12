@@ -64,7 +64,7 @@ export const AboutSection = () => {
   // @return
   return (
     <section className="relative z-10 w-full bg-white py-12 sm:py-16 md:py-24 lg:py-32 overflow-hidden">
-      <div className="container mx-auto px-4 max-w-7xl">
+      <div className="w-full mx-auto px-4 max-w-7xl">
         <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-20">
           {/* Left Column: Overlapping images with icon badge */}
           <motion.div

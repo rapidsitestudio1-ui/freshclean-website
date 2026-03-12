@@ -40,7 +40,7 @@ const ContactHero = () => {
       <div className="absolute top-1/2 right-[10%] -translate-y-1/2 w-[300px] h-[300px] border border-[#059669]/10 rotate-45 hidden lg:block" />
       <div className="absolute top-1/2 right-[8%] -translate-y-1/2 w-[250px] h-[250px] border border-[#059669]/5 rotate-45 hidden lg:block" />
 
-      <div className="relative z-10 w-full container mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
+      <div className="relative z-10 w-full mx-auto max-w-7xl px-4 sm:px-6 py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -108,7 +108,7 @@ const contactInfo = [
 const ContactInfoCards = () => {
   return (
     <section className="relative z-[2] py-20 md:py-28 bg-white">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         {/* Section header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="flex items-center justify-center gap-3 mb-4">
@@ -201,7 +201,7 @@ const ContactFormSection = () => {
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-[#059669]/[0.02] rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-[#059669]/[0.015] rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         {/* Section Tag */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}
@@ -391,7 +391,7 @@ const MapSection = () => {
   return (
     <section className="relative bg-[#111111] py-20 md:py-28 overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#059669]/30 to-transparent" />
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="w-full mx-auto max-w-7xl px-4 sm:px-6">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="h-px w-8 bg-[#059669]" />

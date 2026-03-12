@@ -89,7 +89,7 @@ export const ServiceEstimateForm = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-[#111111]/80" />
 
-      <div className="container mx-auto px-4 max-w-7xl relative z-10">
+      <div className="w-full mx-auto px-4 max-w-7xl relative z-10">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
           {/* Left — Header content */}
           <motion.div

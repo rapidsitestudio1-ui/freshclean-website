@@ -52,7 +52,7 @@ export const FooterSection = () => {
 
       {/* Main Footer Content */}
       <div className="pt-16 sm:pt-20 md:pt-24 pb-0">
-        <div className="container mx-auto px-4 max-w-7xl">
+        <div className="w-full mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14">
             {/* About Column */}
             <motion.div
